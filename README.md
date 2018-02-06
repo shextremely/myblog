@@ -16,12 +16,12 @@
   5. 基于[marked](https://www.npmjs.com/package/marked)和[highlight.js](https://www.npmjs.com/package/highlight.js)技术自实现的markdown编辑器;
 
 * 后端
-  1. express[http://www.expressjs.com.cn/], 基于nodejs平台的web开发框架;
-  2. mongoose[http://mongoosejs.com/docs/4.x/], 在nodejs环境下对mongodb进行操作的对象模型工具;
+  1. [express](http://www.expressjs.com.cn/), 基于nodejs平台的web开发框架;
+  2. [mongoose](http://mongoosejs.com/docs/4.x/), 在nodejs环境下对mongodb进行操作的对象模型工具;
   3. Babel, 用于编写下一代Javascript的编辑器;
 
 * 数据
-  1. MongoDB[https://www.mongodb.com/], 基于分布式文件存储的数据库
+  1. [MongoDB](https://www.mongodb.com/), 基于分布式文件存储的数据库
 
 ## Category
 
@@ -41,7 +41,7 @@
     * index.js, 入口文件, 这里也是Babel的入口文件;
     * mongodb.js, MongoDB链接配置文件;
 
-    > 注意这里把前后端合并到一个系统的前提是基于Nuxt的serverMiddleware属性，通过axios过滤，把以固定格式发送的HTTP请求转接到该服务系统中
+    注意这里把前后端合并到一个系统的前提是基于Nuxt的serverMiddleware属性，通过axios过滤，把以固定格式发送的HTTP请求转接到该服务系统中
 
   4. layouts, 包含系统所有的页面布局信息；
 
